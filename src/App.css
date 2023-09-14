@@ -1,38 +1,26 @@
-.App {
+body{
+  background-image: url(choco.jpg);
+}
+.card{
+  height: 16rem;
+  width: 16rem;
+  background-color: transparent;
+}
+.bg-light{
+  height: 29rem !important;
+  width: 15rem !important;
+  /* width: 15rem !important; */
+  background-color: aqua;
+  margin-top: 5rem !important;
+}
+.head{
   text-align: center;
+  font-size: large;
+  font-family: cursive;
+  color: orange;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media only screen and (max-width: 500px) {
+  .bg-light{
+    width: 100% !important;
   }
 }
